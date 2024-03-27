@@ -15,7 +15,8 @@ def mostrar_menu(calculadora):
     print("12. Cosseno (em graus)")
     print("13. Tangente (em graus)")
     print("14. Alterar modo de ângulo (atualmente em " + calculadora.modo_angulo + ")")
-    print("15. Sair")
+    print("15. Resolver expressões")
+    print("16. Sair")
 
 def obter_input(texto):
     return input(texto)

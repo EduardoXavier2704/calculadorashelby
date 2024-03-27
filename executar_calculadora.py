@@ -78,6 +78,12 @@ def executar_calculadora(calculadora):
             calculadora.alterar_modo()
             print("Modo de ângulo alterado para", calculadora.modo_angulo)
         elif operacao == 15:
+            expressao = input("Digite a expressão matemática: ")
+            resultado = eval(expressao)
+            print("O resultado é:", resultado)
+        elif operacao == 'e':
+            break
+        elif operacao == 16:
             break
         else:
             print("Operação inválida, tente novamente!")
